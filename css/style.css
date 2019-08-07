@@ -1,0 +1,221 @@
+/* Color Theme Swatches in Hex */
+.Seilenna-Swimwear-Branding-1-hex { color: #014029; }
+.Seilenna-Swimwear-Branding-2-hex { color: #F2A391; }
+.Seilenna-Swimwear-Branding-3-hex { color: #F20C0C; }
+.Seilenna-Swimwear-Branding-4-hex { color: #D93636; }
+.Seilenna-Swimwear-Branding-5-hex { color: #F2DCDC; }
+
+/*general*/
+
+body {
+    background-image: url("../img/viewport-background.jpg"); 
+    background-size: cover;
+    background-color: #014029; 
+}
+
+header, .masthead, main, footer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    max-width: 80rem;
+}
+
+main {
+    position: absolute;
+    background-color: #F2DCDC;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    padding: 2%;
+    margin-bottom: 3rem;
+    text-align: center;
+    
+}
+
+/*styling main nav*/
+.navbar-brand {
+    color: #FFFFFF;
+    font-size: 30pt;
+    line-height: 4.3rem;
+    display: inline; 
+    font-family: 'Playfair Display', serif;
+}
+span {
+    font-size: 20pt;
+    color: #F20C0C;
+}
+
+.dropdown-menu {
+    background-color: #F2DCDC;
+    border-style: none;
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+.dropdown-menu a:hover {
+    background-color:#F2A391;
+    
+}
+.nav-item {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+/*styling masthead*/ 
+
+.masthead {
+    height: 175px; 
+    border-style: solid;
+    border-bottom: none;
+    border-width: 10px;
+    border-color:white;
+    padding: 2%;
+    background-color: #F2DCDC;
+    background-image: url("../img/masthead-background-2.jpg");
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+/*styling main content*/ 
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+    color: #F20C0C;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+hr {
+    border-top: 5px solid white;
+    font-size: 20pt;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+.product {
+    display: inline-block; 
+    margin: 1.25rem; 
+    background-color: white;
+}
+ 
+figcaption {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem; 
+    height: 20px; 
+}
+
+figcaption span {
+    font-family: 'Playfair Display', serif;
+}
+
+/*styling the footer*/
+
+
+#footer {
+    background-color: #F2A391; 
+    height: 50px; 
+    margin-left: 3rem; 
+    margin-right: 3rem; 
+}
+#brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 15pt; 
+    line-height: 1.4rem; 
+}
+
+#socials {
+    text-decoration: none; 
+    color: white; 
+    font-size: 15pt; 
+    padding-left: 5pt; 
+}
+
+#socials:hover {
+    color: #F20C0C;
+}
+/* responsiveness */
+
+@media only screen and (min-width: 60rem) {
+
+    .masthead {
+        height: 250px; 
+    }
+       .product {
+        height: 20%; 
+        width: 20%;
+    }
+    
+    .product img {
+        height: 100%; 
+        width: 100%; 
+    
+    }
+    
+}
+
+@media only screen and (min-width: 30rem) and (max-width: 60rem) {
+    
+    .product {
+        height: 40%; 
+        width: 40%;
+        margin: 1rem;
+    }
+    
+    .product img {
+        height: 100%; 
+        width: 100%; 
+    
+    }
+    
+}
+
+@media only screen and (max-width: 30rem) {
+
+    h3 {
+        font-size: 1.4rem;
+        margin-top: 10px; 
+    }
+    
+    hr {
+        border-width: 3px; 
+        padding: 10px;
+        width: 90%; 
+        
+    }
+    
+    .masthead {
+        height: 0px; 
+        padding: 0px; 
+        border: none; 
+    }
+    
+    main {
+        border-width: 5px;
+    }
+    
+    .product img {
+        width: 100%;
+        height: 100%; 
+    
+    }
+    .product {
+        margin: 0.5rem;
+    }
+    
+    figcaption {
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+    }
+    
+    header, .masthead, main, #footer {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    main {
+        padding: 1%;
+    }
+    
+}
